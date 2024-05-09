@@ -1,0 +1,12 @@
+/*Ma asigur ca toate paginile ocupa minim toata inaltimea paginii*/
+.Layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Cu proprietatile de mai jos ii spunem tag-ului de main sa creasca cat are loc, astfel incat footerul in subsol sau josul paginii*/
+.Layout main {
+    flex: 1;
+    text-align: center;
+}
